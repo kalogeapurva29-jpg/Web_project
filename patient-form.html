@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Information Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="form-container">
+
+    <h2>Patient Information Form</h2>
+
+    <form>
+
+        <!-- Name -->
+        <label>Patient Name *</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <!-- Address -->
+        <label>Address *</label>
+        <input type="text" placeholder="Enter your address" required>
+
+        <!-- Pincode -->
+        <label>Pincode </label>
+        <input type="number" placeholder="Enter pincode" required>
+
+        <!-- Contact -->
+        <label>Contact Number *</label>
+        <input type="tel" placeholder="Enter mobile number" required>
+
+        <!-- Email -->
+        <label>Email ID</label>
+        <input type="email" placeholder="Enter email">
+
+        <!-- Age -->
+        <label>Age *</label>
+        <input type="number" required>
+
+        <!-- Gender -->
+        <label>Gender *</label>
+        <div class="radio-group">
+            <label><input type="radio" name="gender"> Male</label>
+            <label><input type="radio" name="gender"> Female</label>
+        </div>
+
+        <!-- DOB -->
+        <label>Date of Birth *</label>
+        <input type="date" required>
+
+        <!-- Reference -->
+        <label>Reference</label>
+        <div class="checkbox-group">
+            <label><input type="checkbox"> YouTube</label>
+            <label><input type="checkbox"> Friends / Relatives</label>
+            <label><input type="checkbox"> Facebook</label>
+            <label><input type="checkbox"> Instagram</label>
+        </div>
+
+        <!-- Complaints -->
+        <label>Patient Complaints</label>
+        <div class="checkbox-group">
+            <label><input type="checkbox"> Diabetes</label>
+            <label><input type="checkbox"> Thyroid</label>
+            <label><input type="checkbox"> Weight Gain</label>
+            <label><input type="checkbox"> Skin Disease</label>
+            <label><input type="checkbox"> Joint Pain</label>
+            <label><input type="checkbox"> Hair Problem</label>
+            <label><input type="checkbox"> Acidity</label>
+        </div>
+
+        <!-- Permission -->
+        <label>Permission *</label>
+        <div class="radio-group">
+            <label><input type="radio" name="permission" required> Yes</label>
+            <label><input type="radio" name="permission"> No</label>
+        </div>
+
+        <!-- Submit -->
+        <button type="submit">Submit</button>
+
+    </form>
+
+</section>
+
+</body>
+</html>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arogyam Yog-Naturopathy Clinic</title>
+  <meta
+    name="description"
+    content="Arogyam Yog-Naturopathy Clinic offers natural healing therapies including Swedan, Panchakarma, Snehan, Mud Therapy, Diet Therapy and wellness care."
+  />
+  <link rel="stylesheet" href="newstyle.css">
+</head>
+<body class="home">
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Arogyam Yog-Naturopathy Clinic Logo" />
+        <div class="logo-text">
+          <span class="logo-title">Arogyam Yog-Naturopathy Clinic</span>
+          <small>Natural Healing • Yoga • Wellness</small>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#" onclick="if(window.ownerLogin) ownerLogin()">Login</a></li>
+        </ul>
+      </nav>
+
+      <a href="#appointment" class="btn btn-primary" onclick="if(window.bookAppointment) bookAppointment()">
+        Book Appointment
+      </a>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero-banner">
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <div class="hero-left">
+        <p class="hero-tag">Welcome to Natural Healing & Holistic Wellness</p>
+        <h1>Arogyam Yog-Naturopathy Clinic</h1>
+        <p class="hero-subtext">
+          Experience the healing power of nature through yoga, detox therapies,
+          relaxation treatments and wellness care designed for body, mind and soul.
+        </p>
+
+        <div class="hero-services">
+          <span>Swedan</span>
+          <span>Panchakarma</span>
+          <span>Snehan</span>
+          <span>Mud Therapy</span>
+          <span>Diet Therapy</span>
+          <span>Kamping Therapy</span>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#appointment" class="btn btn-primary" onclick="if(window.bookAppointment) bookAppointment()">
+            Book Appointment
+          </a>
+          <a href="#services" class="btn btn-outline">Explore Services</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h3>Your Wellness Starts Here</h3>
+        <p>
+          Gentle therapies. Natural recovery. A calm healing environment.
+        </p>
+
+        <ul>
+          <li>Natural & non-invasive healing</li>
+          <li>Traditional therapy methods</li>
+          <li>Relaxing wellness atmosphere</li>
+          <li>Quick appointment booking</li>
+        </ul>
+
+        <a href="#appointment" class="btn btn-primary btn-full">
+          Schedule a Visit
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= QUICK HIGHLIGHTS ================= -->
+  <section class="highlights">
+    <div class="container highlights-grid">
+      <div class="highlight-card">
+        <div class="highlight-icon">🌿</div>
+        <h3>Holistic Healing</h3>
+        <p>Therapies focused on restoring natural body balance and wellness.</p>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-icon">🧘</div>
+        <h3>Yoga & Wellness</h3>
+        <p>Support for body, mind and lifestyle through traditional wellness methods.</p>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-icon">📅</div>
+        <h3>Easy Booking</h3>
+        <p>Clear appointment call-to-action so visitors can book instantly.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= OFFERS ================= -->
+  <section class="offers-section">
+    <div class="container">
+      <div class="offers-box">
+        <h2>Today's Offers</h2>
+        <div class="offer-container">
+          <div id="offerTrack" class="offer-track"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-tag">Our Therapies</p>
+        <h2>Healing Services We Offer</h2>
+        <p class="section-subtext">
+          Explore our natural therapies designed for detox, nourishment,
+          rejuvenation and complete wellness.
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card">
+          <img src="images/therapy2.jpg" alt="Panchakarma therapy" />
+          <div class="service-content">
+            <h3>Panchakarma</h3>
+            <p>Deep cleansing and rejuvenation therapy for restoring internal balance.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <img src="images/therapy8.jpg" alt="Snehan therapy" />
+          <div class="service-content">
+            <h3>Snehan</h3>
+            <p>Traditional oil therapy that nourishes the body and supports relaxation.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <img src="images/therapy7.jpg" alt="Swedan therapy" />
+          <div class="service-content">
+            <h3>Swedan</h3>
+            <p>Relaxation and detox therapy that helps refresh the body and mind.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <img src="images/therapy3.jpg" alt="Diet therapy" />
+          <div class="service-content">
+            <h3>Diet Therapy</h3>
+            <p>Healing support through natural diet guidance and healthy food practices.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <img src="images/mudtherapy.jpg" alt="Mud therapy" />
+          <div class="service-content">
+            <h3>Mud Therapy</h3>
+            <p>Nature-based cooling and detox treatment that promotes soothing relief.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <img src="images/g7.jpg" alt="Kamping therapy" />
+          <div class="service-content">
+            <h3>Kamping Therapy</h3>
+            <p>Traditional therapy aimed at relaxation, relief and better circulation.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="about-section-home">
+    <div class="container about-grid">
+
+      <div class="about-image">
+        <img src="images/about-home.jpg" alt="Arogyam Yog-Naturopathy wellness clinic" />
+        <div class="about-badge">Natural wellness that speaks for itself</div>
+      </div>
+
+      <div class="about-content">
+        <p class="section-tag">About Our Clinic</p>
+        <h2>A Healing Space Inspired by Nature</h2>
+
+        <p>
+          At <strong>Arogyam Yog-Naturopathy Clinic</strong>, we believe that the body
+          can heal naturally when supported with proper therapies, healthy habits
+          and a peaceful environment.
+        </p>
+
+        <p>
+          Our clinic focuses on detoxification, rejuvenation, yoga-based wellness,
+          relaxation therapies and holistic care that support overall well-being.
+        </p>
+
+        <div class="about-features">
+          <div class="feature-box">Natural & non-invasive approach</div>
+          <div class="feature-box">Traditional therapy methods</div>
+          <div class="feature-box">Personalized wellness experience</div>
+          <div class="feature-box">Comfortable healing atmosphere</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= APPOINTMENT CTA ================= -->
+  <section class="appointment-section" id="appointment">
+    <div class="container appointment-wrap">
+      <div class="appointment-text">
+        <p class="section-tag light">Book Your Visit</p>
+        <h2>Start Your Natural Healing Journey Today</h2>
+        <p>
+          Whether you are looking for detox therapies, relaxation care or
+          wellness guidance, our clinic is here to support your healing journey.
+        </p>
+
+        <div class="appointment-points">
+          <span>Easy to Book</span>
+          <span>Natural Therapies</span>
+          <span>Comfortable Clinic</span>
+        </div>
+      </div>
+
+      <div class="appointment-card">
+        <h3>Need an Appointment?</h3>
+        <p>Call us or click the button below to schedule your session.</p>
+        <a href="tel:+919699108220" class="contact-line">📞 +91 9699108220</a>
+        <a href="#contact" class="contact-line">📍 Bhagchand Complex, Dindori Naka, Nashik</a>
+        <a>For more info fill google from</a>
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScT-PPzRPJ1r3anLkY7P5TMezFAdosKYDAbEv0cAbDeJzx1Xg/viewform?usp=sharing"
+   class="form-link" target="_blank">
+   Fill Form
+</a>
+        <a href="#contact" class="btn btn-light" onclick="if(window.bookAppointment) bookAppointment()">
+          Book Appointment
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT SECTION ================= -->
+  <section class="contact-section-premium" id="contact">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-tag">Contact Us</p>
+        <h2>Get In Touch</h2>
+        <p class="section-subtext">
+          Reach out to us and begin your wellness journey with trusted naturopathy care.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon">📞</div>
+          <h3>Call Us</h3>
+          <p>+91 9699108220</p>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">📍</div>
+          <h3>Visit Us</h3>
+          <p>Bhagchand Complex</p>
+          <p>Dindori Naka, Nashik</p>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">⏰</div>
+          <h3>Working Hours</h3>
+          <p>Mon - Sat</p>
+          <p>8:00 AM - 9:00 PM</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ADMIN PANEL ================= -->
+  <div id="adminPanel" class="admin-panel" style="display:none;">
+    <h3>Manage Offers</h3>
+    <input type="text" id="offerText" placeholder="Enter offer" />
+    <div class="admin-buttons">
+      <button onclick="addOffer()">Add</button>
+      <button onclick="updateOffer()">Update</button>
+    </div>
+    <ul id="adminList"></ul>
+  </div>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2026 Arogyam Yog-Naturopathy Clinic. All rights reserved.</p>
+      <p>Natural Healing • Yoga • Naturopathy • Wellness</p>
+    </div>
+  </footer>
+
+  <!-- Floating Button -->
+  <a href="#appointment" class="floating-book-btn" onclick="if(window.bookAppointment) bookAppointment()">Book Now</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
